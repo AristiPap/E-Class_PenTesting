@@ -1,0 +1,70 @@
+#installBullet {
+	list-style-image: url(../template/classic/img/arrow_grey.gif);
+    font-size: 10px !important;
+
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px !important;
+}
+
+body{font-size:12px;font-family: Verdana, Arial, sans-serif;}
+
+fieldset { border:1px solid green }
+
+DIV.outer
+      {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 413px;
+      height: 445px;
+      margin-left: -207px; /* half of width */
+      margin-top: -222px;  /* half of height */
+}
+
+a.installer {
+  color: red !important;
+}
+
+
+DIV.welcomeImg {
+	float: left;
+	width: 413px;
+	height: 360px;
+	background-image: url(welcome.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	overflow:visible;
+	}
+	
+.currentStep {
+	color:black;
+	font-weight:bold;
+}
+
+.extraMessage {
+	background-image: url(../template/classic/img/exclamation.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	padding-left : 24px;
+	background-color:#FBEC5D;
+}
+
+.extraMessageOK {
+	background-image: url(../template/classic/img/well-done.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding-left : 30px;
+    padding-top : 5px;
+    padding-bottom : 5px;
+	background-color:#CCFF99;
+}
+
+#search p.title {
+	font-weight:bold;
+	font-size: 15px;
+	margin-top:30px;
+	margin-left:10px;
+}
